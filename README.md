@@ -9,3 +9,10 @@ This analysis was used in two reports by the Investigative Journalism Foundation
 
 ### Descriptions of notebooks
 
+[data_prep.ipynb](data_prep.ipynb) - Loads raw data from government website, cleans up vendor names, standardizes unique procurement IDs, isolates amended contracts.
+
+[amended_contracts_analysis.ipynb](amended_contracts_analysis.ipynb) - Statistical analysis of amended contracts and cost inflation.
+
+### Acknowledgement
+
+Much of the prep code was inspired by the work of [Sean Boots at Carleton University](https://govcanadacontracts.ca/methodology/). For the most part, my Python code is a direct translation of Sean's R code.
